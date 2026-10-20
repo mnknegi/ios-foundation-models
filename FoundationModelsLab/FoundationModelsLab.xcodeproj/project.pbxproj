@@ -12,37 +12,37 @@
 			containerPortal = 85B7957D308752DD001EC189 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 85B79584308752DD001EC189;
-			remoteInfo = FoundationModels;
+			remoteInfo = FoundationModelsLab;
 		};
 		85B7959D308752DE001EC189 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 85B7957D308752DD001EC189 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 85B79584308752DD001EC189;
-			remoteInfo = FoundationModels;
+			remoteInfo = FoundationModelsLab;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		85B79585308752DD001EC189 /* FoundationModels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoundationModels.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		85B79592308752DE001EC189 /* FoundationModelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoundationModelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		85B7959C308752DE001EC189 /* FoundationModelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoundationModelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B79585308752DD001EC189 /* FoundationModelsLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoundationModelsLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B79592308752DE001EC189 /* FoundationModelsLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoundationModelsLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B7959C308752DE001EC189 /* FoundationModelsLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoundationModelsLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		85B79587308752DD001EC189 /* FoundationModels */ = {
+		85B79587308752DD001EC189 /* FoundationModelsLab */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FoundationModels;
+			path = FoundationModelsLab;
 			sourceTree = "<group>";
 		};
-		85B79595308752DE001EC189 /* FoundationModelsTests */ = {
+		85B79595308752DE001EC189 /* FoundationModelsLabTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FoundationModelsTests;
+			path = FoundationModelsLabTests;
 			sourceTree = "<group>";
 		};
-		85B7959F308752DE001EC189 /* FoundationModelsUITests */ = {
+		85B7959F308752DE001EC189 /* FoundationModelsLabUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FoundationModelsUITests;
+			path = FoundationModelsLabUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		85B7957C308752DD001EC189 = {
 			isa = PBXGroup;
 			children = (
-				85B79587308752DD001EC189 /* FoundationModels */,
-				85B79595308752DE001EC189 /* FoundationModelsTests */,
-				85B7959F308752DE001EC189 /* FoundationModelsUITests */,
+				85B79587308752DD001EC189 /* FoundationModelsLab */,
+				85B79595308752DE001EC189 /* FoundationModelsLabTests */,
+				85B7959F308752DE001EC189 /* FoundationModelsLabUITests */,
 				85B79586308752DD001EC189 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		85B79586308752DD001EC189 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85B79585308752DD001EC189 /* FoundationModels.app */,
-				85B79592308752DE001EC189 /* FoundationModelsTests.xctest */,
-				85B7959C308752DE001EC189 /* FoundationModelsUITests.xctest */,
+				85B79585308752DD001EC189 /* FoundationModelsLab.app */,
+				85B79592308752DE001EC189 /* FoundationModelsLabTests.xctest */,
+				85B7959C308752DE001EC189 /* FoundationModelsLabUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		85B79584308752DD001EC189 /* FoundationModels */ = {
+		85B79584308752DD001EC189 /* FoundationModelsLab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85B795A6308752DE001EC189 /* Build configuration list for PBXNativeTarget "FoundationModels" */;
+			buildConfigurationList = 85B795A6308752DE001EC189 /* Build configuration list for PBXNativeTarget "FoundationModelsLab" */;
 			buildPhases = (
 				85B79581308752DD001EC189 /* Sources */,
 				85B79582308752DD001EC189 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				85B79587308752DD001EC189 /* FoundationModels */,
+				85B79587308752DD001EC189 /* FoundationModelsLab */,
 			);
-			name = FoundationModels;
+			name = FoundationModelsLab;
 			packageProductDependencies = (
 			);
-			productName = FoundationModels;
-			productReference = 85B79585308752DD001EC189 /* FoundationModels.app */;
+			productName = FoundationModelsLab;
+			productReference = 85B79585308752DD001EC189 /* FoundationModelsLab.app */;
 			productType = "com.apple.product-type.application";
 		};
-		85B79591308752DE001EC189 /* FoundationModelsTests */ = {
+		85B79591308752DE001EC189 /* FoundationModelsLabTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85B795A9308752DE001EC189 /* Build configuration list for PBXNativeTarget "FoundationModelsTests" */;
+			buildConfigurationList = 85B795A9308752DE001EC189 /* Build configuration list for PBXNativeTarget "FoundationModelsLabTests" */;
 			buildPhases = (
 				85B7958E308752DE001EC189 /* Sources */,
 				85B7958F308752DE001EC189 /* Frameworks */,
@@ -131,18 +131,18 @@
 				85B79594308752DE001EC189 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				85B79595308752DE001EC189 /* FoundationModelsTests */,
+				85B79595308752DE001EC189 /* FoundationModelsLabTests */,
 			);
-			name = FoundationModelsTests;
+			name = FoundationModelsLabTests;
 			packageProductDependencies = (
 			);
-			productName = FoundationModelsTests;
-			productReference = 85B79592308752DE001EC189 /* FoundationModelsTests.xctest */;
+			productName = FoundationModelsLabTests;
+			productReference = 85B79592308752DE001EC189 /* FoundationModelsLabTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		85B7959B308752DE001EC189 /* FoundationModelsUITests */ = {
+		85B7959B308752DE001EC189 /* FoundationModelsLabUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85B795AC308752DE001EC189 /* Build configuration list for PBXNativeTarget "FoundationModelsUITests" */;
+			buildConfigurationList = 85B795AC308752DE001EC189 /* Build configuration list for PBXNativeTarget "FoundationModelsLabUITests" */;
 			buildPhases = (
 				85B79598308752DE001EC189 /* Sources */,
 				85B79599308752DE001EC189 /* Frameworks */,
@@ -154,13 +154,13 @@
 				85B7959E308752DE001EC189 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				85B7959F308752DE001EC189 /* FoundationModelsUITests */,
+				85B7959F308752DE001EC189 /* FoundationModelsLabUITests */,
 			);
-			name = FoundationModelsUITests;
+			name = FoundationModelsLabUITests;
 			packageProductDependencies = (
 			);
-			productName = FoundationModelsUITests;
-			productReference = 85B7959C308752DE001EC189 /* FoundationModelsUITests.xctest */;
+			productName = FoundationModelsLabUITests;
+			productReference = 85B7959C308752DE001EC189 /* FoundationModelsLabUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 85B79580308752DD001EC189 /* Build configuration list for PBXProject "FoundationModels" */;
+			buildConfigurationList = 85B79580308752DD001EC189 /* Build configuration list for PBXProject "FoundationModelsLab" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85B79584308752DD001EC189 /* FoundationModels */,
-				85B79591308752DE001EC189 /* FoundationModelsTests */,
-				85B7959B308752DE001EC189 /* FoundationModelsUITests */,
+				85B79584308752DD001EC189 /* FoundationModelsLab */,
+				85B79591308752DE001EC189 /* FoundationModelsLabTests */,
+				85B7959B308752DE001EC189 /* FoundationModelsLabUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		85B79594308752DE001EC189 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 85B79584308752DD001EC189 /* FoundationModels */;
+			target = 85B79584308752DD001EC189 /* FoundationModelsLab */;
 			targetProxy = 85B79593308752DE001EC189 /* PBXContainerItemProxy */;
 		};
 		85B7959E308752DE001EC189 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 85B79584308752DD001EC189 /* FoundationModels */;
+			target = 85B79584308752DD001EC189 /* FoundationModelsLab */;
 			targetProxy = 85B7959D308752DE001EC189 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -413,8 +413,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosmantra.FoundationModels;
-				PRODUCT_MODULE_NAME = FoundationModelsLab;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosmantra.FoundationModelsLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -458,8 +457,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosmantra.FoundationModels;
-				PRODUCT_MODULE_NAME = FoundationModelsLab;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosmantra.FoundationModelsLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -486,7 +484,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosmantra.FoundationModelsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosmantra.FoundationModelsLabTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -496,7 +494,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoundationModels.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoundationModels";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoundationModelsLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoundationModelsLab";
 				XROS_DEPLOYMENT_TARGET = 26.5;
 			};
 			name = Debug;
@@ -512,7 +510,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosmantra.FoundationModelsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosmantra.FoundationModelsLabTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -522,7 +520,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoundationModels.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoundationModels";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoundationModelsLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoundationModelsLab";
 				XROS_DEPLOYMENT_TARGET = 26.5;
 			};
 			name = Release;
@@ -537,7 +535,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosmantra.FoundationModelsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosmantra.FoundationModelsLabUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -547,7 +545,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = FoundationModels;
+				TEST_TARGET_NAME = FoundationModelsLab;
 				XROS_DEPLOYMENT_TARGET = 26.5;
 			};
 			name = Debug;
@@ -562,7 +560,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosmantra.FoundationModelsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosmantra.FoundationModelsLabUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -572,7 +570,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = FoundationModels;
+				TEST_TARGET_NAME = FoundationModelsLab;
 				XROS_DEPLOYMENT_TARGET = 26.5;
 			};
 			name = Release;
@@ -580,7 +578,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85B79580308752DD001EC189 /* Build configuration list for PBXProject "FoundationModels" */ = {
+		85B79580308752DD001EC189 /* Build configuration list for PBXProject "FoundationModelsLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85B795A4308752DE001EC189 /* Debug */,
@@ -589,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85B795A6308752DE001EC189 /* Build configuration list for PBXNativeTarget "FoundationModels" */ = {
+		85B795A6308752DE001EC189 /* Build configuration list for PBXNativeTarget "FoundationModelsLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85B795A7308752DE001EC189 /* Debug */,
@@ -598,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85B795A9308752DE001EC189 /* Build configuration list for PBXNativeTarget "FoundationModelsTests" */ = {
+		85B795A9308752DE001EC189 /* Build configuration list for PBXNativeTarget "FoundationModelsLabTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85B795AA308752DE001EC189 /* Debug */,
@@ -607,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85B795AC308752DE001EC189 /* Build configuration list for PBXNativeTarget "FoundationModelsUITests" */ = {
+		85B795AC308752DE001EC189 /* Build configuration list for PBXNativeTarget "FoundationModelsLabUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85B795AD308752DE001EC189 /* Debug */,

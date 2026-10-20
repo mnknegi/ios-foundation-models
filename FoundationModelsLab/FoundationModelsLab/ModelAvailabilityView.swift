@@ -1,6 +1,6 @@
 //
 //  ModelAvailabilityView.swift
-//  FoundationModels
+//  FoundationModelsLab
 //
 //  Created by Mayank Negi on 20/10/26.
 //

@@ -1,13 +1,13 @@
 //
-//  FoundationModelsTests.swift
-//  FoundationModelsTests
+//  FoundationModelsLabTests.swift
+//  FoundationModelsLabTests
 //
 //  Created by Mayank Negi on 20/10/26.
 //
 
 import Testing
 
-struct FoundationModelsTests {
+struct FoundationModelsLabTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

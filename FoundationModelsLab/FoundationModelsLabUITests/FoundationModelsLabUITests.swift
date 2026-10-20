@@ -1,13 +1,13 @@
 //
-//  FoundationModelsUITests.swift
-//  FoundationModelsUITests
+//  FoundationModelsLabUITests.swift
+//  FoundationModelsLabUITests
 //
 //  Created by Mayank Negi on 20/10/26.
 //
 
 import XCTest
 
-final class FoundationModelsUITests: XCTestCase {
+final class FoundationModelsLabUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

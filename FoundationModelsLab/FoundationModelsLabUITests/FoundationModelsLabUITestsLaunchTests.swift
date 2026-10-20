@@ -1,13 +1,13 @@
 //
-//  FoundationModelsUITestsLaunchTests.swift
-//  FoundationModelsUITests
+//  FoundationModelsLabUITestsLaunchTests.swift
+//  FoundationModelsLabUITests
 //
 //  Created by Mayank Negi on 20/10/26.
 //
 
 import XCTest
 
-final class FoundationModelsUITestsLaunchTests: XCTestCase {
+final class FoundationModelsLabUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
